@@ -1,0 +1,36 @@
+.mainbackground {
+  background-image: url(https://plus.unsplash.com/premium_photo-1664478260612-7c3c685d0998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ybiUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+p {
+  margin: 0;
+}
+
+.corndog {
+  height: 30px;
+  width: 30px;
+}
+
+.shopbackground {
+  background-image: url(https://images.unsplash.com/photo-1533752222892-84d2112b2e84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29ybmRvZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+@media(max-width:768px) {
+  .hidetext {
+    visibility: hidden;
+  }
+}
+
+@media(min-width:768px) {
+  .ratingcard {}
+}
+
+.customfont {
+  font-family: 'Tilt Prism';
+}

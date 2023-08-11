@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week1Checkpoint</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+
+<body class="debug">
+
+  <!-- ANCHOR -->
+  <header class="container-fluid sticky-top">
+    <section class="row bg-warning">
+      <div class="d-flex align-items-center">
+        <img class="corndog" src="https://static.thenounproject.com/png/393531-200.png" alt="">
+        <h2 class="p-2 customfont">Carl's Corn Dogs</h2>
+      </div>
+    </section>
+  </header>
+
+
+  <!-- ANCHOR -->
+  <main class="container-fluid">
+    <section class="row mainbackground">
+      <div class="col-10 col-md-3 bg-white m-4 p-3 h-75">
+        <h2>Sign up for Corndogs</h2>
+        <input class="p-1 m-2">Name:</input>
+        <input class="p-1 m-2">email:</input>
+        <input class="p-1 m-2">phone:</input>
+        <input class="p-1 m-2">ext:</input>
+        <input class="p-1 m-2">message:</input>
+        <b class="bg-warning">submit</b>
+      </div>
+      <div class="col-md-5 m-5 text-center hidetext">
+        <h1>The Best Corn Dogs Ever</h1>
+        <p>Don't take our word for it, come in and find out for yourself!</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="bg-black text-light col-md-6">
+        <h2>Blah</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam tempore iste suscipit labore repellat autem
+          hic eius modi? Sed consequuntur qui sint quis dolorum commodi odio corrupti porro beatae itaque.
+        </p>
+      </div>
+      <div class="bg-black text-light col-12 col-md-6 ratingcard">
+        <p>Taste: 10/10</p>
+        <p>smell: 10/10</p>
+        <p>atmosphere: 10/10</p>
+        <p>people: 10/10</p>
+      </div>
+    </section>
+    <section class="row align-items-center">
+      <div class="col-5 m-5 shopbackground">
+
+      </div>
+      <div class="col-12 col-md-5 p-5">
+        <h2>Restaurant info</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus rem deleniti quibusdam itaque blanditiis
+          provident? Soluta accusantium nisi harum. Tempore modi, ratione quidem itaque impedit provident asperiores qui
+          numquam excepturi.</p>
+      </div>
+      <button>More</button>
+
+    </section>
+
+    <section class="row bg-secondary justify-content-evenly p-5 align-items-center">
+      <div class="col-12 col-md-3 bg-white text-center">
+        <h6>Testimonial</h6>
+        <p>-person</p>
+      </div>
+      <div class="col-12 col-md-3 bg-white text-center">
+        <img src="https://static.thenounproject.com/png/3695209-200.png" alt="">
+        <h6>Testimonial</h6>
+        <p>-person</p>
+      </div>
+      <div class="col-12 col-md-3 bg-white text-center">
+        <h6>Testimonial</h6>
+        <p>-person</p>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ANCHOR -->
+  <footer class="container-fluid">
+    <section class="row bg-warning">
+      <p>hi</p>
+    </section>
+  </footer>
+
+</body>
+
+
+</html>
