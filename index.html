@@ -9,26 +9,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-  body.debug .container,
-  body.debug .container-fluid {
-    outline: 2px double blue;
-    outline-offset: -2px;
-  }
-
-  body.debug .row {
-    outline: 2px dashed red;
-    outline-offset: -2px;
-  }
-
-  body.debug [class*="col-"] {
-    outline: 2px dotted forestgreen;
-    outline-offset: -3px;
-  }
-</style>
 
 
-<body class="debug">
+<body>
 
   <!-- ANCHOR -->
   <header class="container-fluid sticky-top">
@@ -88,7 +71,7 @@
     </section>
 
     <section class="row bg-secondary justify-content-evenly p-5 align-items-center">
-      <div class="col-12 col-md-3 bg-white text-center">
+      <div class="col-12 col-md-3 bg-white m-2 p-2 text-center">
         <h6>"The best corndog I've ever had"</h6>
         <p>-Joe Shmoe</p>
       </div>
